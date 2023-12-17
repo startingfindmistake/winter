@@ -1,5 +1,7 @@
 package com.example.winter.utils
 
+import com.example.winter.domain.models.Note
+
 fun List<Note>.filterNotes(notesFilter: NotesFilter): List<Note> {
     return when (notesFilter.orderType) {
         is OrderType.Ascending -> {

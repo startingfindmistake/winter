@@ -5,6 +5,7 @@ import android.app.NotificationManager
 import android.content.Context
 import androidx.core.app.NotificationCompat
 import com.example.winter.R
+import com.example.winter.domain.models.Note
 
 fun NotificationManager.sendReminderNote(context: Context, note: Note) {
     val notification = NotificationCompat.Builder(context, "1").apply {

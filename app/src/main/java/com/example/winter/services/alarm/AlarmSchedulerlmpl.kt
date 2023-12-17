@@ -7,6 +7,7 @@ import android.content.Intent
 import android.os.Build
 import android.os.SystemClock
 import android.provider.Settings
+import com.example.winter.utils.getNoteAlarmPendingIntent
 import javax.inject.Inject
 
 class AlarmSchedulerlmpl @Inject constructor(private val context: Context) : AlarmScheduler {

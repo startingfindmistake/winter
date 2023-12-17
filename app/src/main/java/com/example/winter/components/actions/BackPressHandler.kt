@@ -8,6 +8,8 @@ import androidx.compose.runtime.mutableStateOf
 import androidx.compose.runtime.remember
 import androidx.compose.runtime.setValue
 import androidx.compose.ui.platform.LocalContext
+import com.example.winter.utils.closeApp
+import com.example.winter.utils.toast
 import kotlinx.coroutines.delay
 
 @Composable
